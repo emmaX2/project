@@ -20,8 +20,8 @@ $_username = array("id" => 1,"firstname" => "Joram","infix" => "van","lastname" 
 
 echo "mijn id is: " . $_username["id"]; "<br>";
 echo "mijn voornaam is: " . $_username["firstname"]; "<br>"; 
-echo "mijn tussenvoegsel is: " . $_username["infix"]; "<br>";
-echo "mijn achternaam is: " . $_username["lastname"]; "<br>";
+echo "mijn tussenvoegsel is: " . $_username["lastname"]; "<br>";
+echo "mijn achternaam is: " . $_username["email"]; "<br>";
 echo "mijn woonplaats is: " . $_username["city"]; "<br>";
 
 echo "<hr>";
@@ -42,25 +42,25 @@ in
 $server = "localhost";
 $username = "root";
 $password = "";
-$dbname = "sinterklaas";
+$dbname = "witchcraft";
 
 $firstname = $_POST["firstname"];
-$infix = $_POST["infix"];
 $lastname = $_POST["lastname"];
+$email = $_POST["email"];
 
 $conn = mysqli_connect($server, $username, $password, $dbname);
 
-$sql = "INSERT INTO  `sint` (`id`, 
+$sql = "INSERT INTO  `student` (`id`, 
                                 `firstname`,
-                                `infix`,
-                                `lastname`)
+                                `lastname`,
+                                `email`)
                                 VAlUES (NULL,
                                 '$firstname',
-                                '$infix',
-                                '$lastname')";
+                                '$lastname',
+                                '$email')";
 // echo $sql; exit();
 mysqli_query($conn, $sql);
 
-header("Location: ./index.php");    
+header("Location: ./inschrijven.php");    
 
 ?>
