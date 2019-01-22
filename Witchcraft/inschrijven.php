@@ -16,7 +16,7 @@
 
 
 
-<title>Hello, world!</title>
+<title>Inschrijven</title>
 
 </head>
 
