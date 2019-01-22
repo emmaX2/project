@@ -72,12 +72,11 @@
 
 <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="email" name="email">
 
-<small id="AchternaamHelp" class="form-text text-muted">We zullen deze informatie alleen met MBO Utrecht delen</small>
 
 </div>
 
-<div class="form-group row">
-  <label for="geboortedatum" class="form-control">geboortedatum</label>
+<div class="form-group">
+  <label for="geboortedatum">geboortedatum</label>
   <div class="col-10">
     <input class="form-control" type="date" value="jjjj-mm-dd" id="geboortedatum">
   </div>
@@ -101,21 +100,6 @@
 
 </div>
 
-
-</div>
-<div class="row">
-<div class="col-12">
-<button type="button" class ="btn btn-primary btn-lg btn-block">nieuw record</button>
-</div>
-<div class="row">
-
-<div class="col-12"><br>
-
-<p>
-
-</p>
-
-</div>
 
 </div>
 
