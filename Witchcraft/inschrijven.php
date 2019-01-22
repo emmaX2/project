@@ -52,17 +52,17 @@
 
 <div class="form-group">
 
-<label for="voornaam">Voornaam</label>
+<label for="voornaam">voornaam</label>
 
-<input type="text" class="form-control" id="voornaam" aria-describedby="voornaamHelp" placeholder="Voornaam" name="voornaam">
+<input type="text" class="form-control" id="voornaam" aria-describedby="voornaamHelp" placeholder="voornaam" name="voornaam">
 
 </div>
 
 <div class="form-group">
 
-<label for=Achternaam">Achternaam</label>
+<label for=achternaam">achternaam</label>
 
-<input type="text" class="form-control" id="Achternaam" aria-describedby="achternaamHelp" placeholder="Tussenvoegsel" name="achternaam">
+<input type="text" class="form-control" id="achternaam" aria-describedby="achternaamHelp" placeholder="achternaam" name="achternaam">
 
 </div>
 
