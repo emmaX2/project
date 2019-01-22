@@ -54,27 +54,46 @@
 
 <label for="voornaam">Voornaam</label>
 
-<input type="text" class="form-control" id="voornaam" aria-describedby="voornaamHelp" placeholder="Voornaam" name="firstname">
+<input type="text" class="form-control" id="voornaam" aria-describedby="voornaamHelp" placeholder="Voornaam" name="voornaam">
 
 </div>
 
 <div class="form-group">
 
-<label for="Tussenvoegsel">Tussenvoegsel</label>
+<label for=Achternaam">Achternaam</label>
 
-<input type="text" class="form-control" id="Tussenvoegsel" aria-describedby="TussenvoegselHelp" placeholder="Tussenvoegsel" name="infix">
+<input type="text" class="form-control" id="Achternaam" aria-describedby="achternaamHelp" placeholder="Tussenvoegsel" name="achternaam">
 
 </div>
 
 <div class="form-group">
 
-<label for="Achternaam">Achternaam</label>
+<label for="email">email</label>
 
-<input type="text" class="form-control" id="Achternaam" aria-describedby="AchternaamHelp" placeholder="Achternaam" name="lastname">
+<input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="email" name="email">
 
 <small id="AchternaamHelp" class="form-text text-muted">We zullen deze informatie alleen met MBO Utrecht delen</small>
 
 </div>
+
+<div class="form-group row">
+  <label for="geboortedatum" class="form-control">geboortedatum</label>
+  <div class="col-10">
+    <input class="form-control" type="date" value="jjjj-mm-dd" id="geboortedatum">
+  </div>
+</div>
+
+<div class="form-group">
+
+<label for="telefoonnummer">telefoonnummer</label>
+
+<input type="text" class="form-control" id="telefoonnummer" aria-describedby="telefoonHelp" placeholder="telefoonnummer" name="telefoonnummer">
+
+</div>
+
+
+
+
 
 <button type="submit" class="btn btn-primary">Stuur het op</button>
 
