@@ -21,7 +21,47 @@
 </head>
 
 <body>
-
+<div 
+class="container">
+<ul 
+class="nav justify-content-end">
+<li 
+class="nav-item">
+<a 
+class="nav-link active" 
+href="index.html">Home</a>
+</li>
+<li 
+class="nav-item">
+<a 
+class="nav-link" 
+href="opleiding.html">Opleiding</a>
+</li>
+<li 
+class="nav-item">
+<a 
+class="nav-link" 
+href="praktisch.html">Praktisch</a>
+</li>
+<li 
+class="nav-item">
+<a 
+class="nav-link" 
+href="inschrijven.php">Inschrijven</a>
+</li>
+<li 
+class="nav-item">
+<a 
+class="nav-link" 
+href="game.html">Game</a>
+</li>
+<li 
+class="nav-item">
+<a 
+class="nav-link" 
+href="contact.html">Contact</a>
+</li>
+</ul>
 <main class="container">
 
 <div class="row">

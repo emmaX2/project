@@ -32,3 +32,4 @@ mysqli_query($conn, $sql);
 header("Location: ./inschrijven.php");    
 
 ?>
+
