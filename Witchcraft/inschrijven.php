@@ -88,7 +88,7 @@ href="contact.html">Contact</a>
 
 <div class="col-6">
 
-<form action="./create.php" method="post">
+<form action="./Create.php" method="post">
 
 <div class="form-group">
 
@@ -134,7 +134,7 @@ href="contact.html">Contact</a>
 
 
 
-<button type="submit" class="btn btn-primary">Stuur het op</button>
+<button type="submit" class="btn btn-primary">Stuur op</button>
 
 </form>
 

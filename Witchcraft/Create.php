@@ -1,4 +1,5 @@
 <?php
+var_dump('hoi'); exit;
 $server = "localhost";
 $username = "root";
 $password = "";
@@ -26,10 +27,10 @@ $sql = "INSERT INTO  `student` (`id`,
                                 '$geboortedatum',
                                 '$telefoonnummer')";
 // echo $sql; exit();
+var_dump($sql);
+//mysqli_query($conn, $sql);
 
-mysqli_query($conn, $sql);
-
-header("Location: ./inschrijven.php");    
+//header("Location: ./inschrijven.php");    
 
 ?>
 
